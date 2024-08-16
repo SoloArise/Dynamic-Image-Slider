@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Image Slider</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+
+<div class="slider-background"></div>
+
+<div class="slider">
+    <div class="slides">
+        <div class="slide" style="background-image: url('./manali.jpg');">
+            <div class="overlay">
+                <h2>MANALI</h2>
+                <p>HIMACHAL PRADESH</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('./moritz.jpg');">
+            <div class="overlay">
+                <h2>ST. MORITZ</h2>
+                <p>SWITZERLAND</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('./ooty.jpg');">
+            <div class="overlay">
+                <h2>OOTY</h2>
+                <p>TAMIL NADU</p>
+            </div>
+        </div>
+    </div>
+    <div class="navigation">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+    <div class="indicators">
+        <span class="indicator active" data-slide="0"></span>
+        <span class="indicator" data-slide="1"></span>
+        <span class="indicator" data-slide="2"></span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
